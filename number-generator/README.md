@@ -19,11 +19,13 @@
 
 REST-сервис должен реализовывать два GET-метода: `random` и `next`
 
-Примеры правильного вызова:
+Правильные примеры вызовов:
 
-`GET http://localhost:8080/number/random`
+> Запрос: `GET http://localhost:8080/number/random`\
+> Ответ: "C399BA 116 RUS"
 
-`GET http://localhost:8080/number/next`
+> Запрос: `GET http://localhost:8080/number/next`\
+> Ответ: "C400BA 116 RUS"
 
 ### Описание задачи
 
